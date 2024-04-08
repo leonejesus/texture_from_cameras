@@ -1,17 +1,17 @@
 from setuptools import find_packages
 from distutils.core import setup
 setup(
-  name = 'texture_plane_from_cameras',         # How you named your package folder (MyLib)
+  name = 'texture_from_cameras',
   packages=find_packages('src'),
   package_dir={'': 'src'},
   version = '0.1.0',      # Start with a small number and increase it with every change you make
-  license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'TYPE YOUR DESCRIPTION HERE',   # Give a short description about your library
-  author = 'YOUR NAME',                   # Type in your name
-  author_email = 'your.email@domain.com',      # Type in your E-Mail
-  url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
-  keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
+  license='GPL-3.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
+  description = '',   # Give a short description about your library
+  author = 'Leone Jesus',
+  author_email = 'leone.jesus@fieb.org',
+  url = 'https://github.com/leonejesus/texture_from_cameras',
+  download_url = 'https://github.com/leonejesus/texture_from_cameras/archive/refs/tags/v0.1.0.tar.gz',
+  keywords = ['SfM', 'MeshLab', 'Texturing'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pymeshlab==2022.2',
       ],
